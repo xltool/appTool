@@ -8,6 +8,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
+        android:ems="24"
         android:text="@string/username_lab_name" />
     
     <EditText
@@ -22,14 +23,31 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:ems="24"
         android:text="@string/password_lab_name" />
-    
+
     <EditText
         android:id="@+id/password_logine_ext"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:inputType="textPassword"
-         />
+        android:ems="10"
+        android:inputType="textPassword" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/login_loginv_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/login_btn_name" />
+
+    <Button
+        android:id="@+id/regin_loginv_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/regin_btn_name" />
     
 </LinearLayout>

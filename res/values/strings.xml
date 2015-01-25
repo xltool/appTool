@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">MyTool</string>
-    <string name="hello_world">登录</string>
+    <string name="hello_world">欢迎光临，绿农主页</string>
     <string name="action_settings">设置</string>
     
     <!-- 按钮的文字描述 -->
